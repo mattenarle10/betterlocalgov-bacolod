@@ -57,6 +57,6 @@ Bacolod City offers various **health programs** through the City Health Office a
 
 - **City Health Office (CHO)**
 - **Phone**: (034) 434-9122
-- **Location**: Bacolod City Government Center, Brgy. Villamonte
+- **Location**: BBB Street, Bacolod City, 6100 Negros Occidental
 - **Hours**: Mon–Fri, 8 AM–5 PM
 - **Website**: [bacolodcity.gov.ph](https://bacolodcity.gov.ph)

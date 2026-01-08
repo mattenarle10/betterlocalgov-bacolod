@@ -9,7 +9,7 @@ This guide covers **where to go**, **what to bring**, and **how admission works*
 ### City Health Office / Public Health Centers
 
 - **Type**: Primary care, outpatient services
-- **Location**: Bacolod City Government Center, Brgy. Villamonte
+- **Location**: BBB Street, Bacolod City, 6100 Negros Occidental
 - **Phone**: (034) 434-9122
 - **Services**: General consultation, basic treatment, referrals
 
@@ -51,4 +51,4 @@ Bacolod City has several private hospitals for more specialized care. Contact th
 
 - **City Health Office**: (034) 434-9122
 - **Emergency Hotline**: Check [bacolodcity.gov.ph/hotlines](https://bacolodcity.gov.ph/hotlines/)
-- **Main Office**: Bacolod City Government Center, Brgy. Villamonte
+- **Main Office**: BBB Street, Bacolod City, 6100 Negros Occidental
