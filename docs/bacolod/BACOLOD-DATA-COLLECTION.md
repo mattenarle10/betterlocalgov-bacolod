@@ -145,3 +145,82 @@ Need to get detailed information from these pages:
 - Active news/announcements section
 - Focus on transparency (Transparency Seal, Full Disclosure Policy)
 - Strong emphasis on business support and employment
+
+---
+
+## Citizen's Charter - Departments (33 total)
+
+Scraped from: https://bacolodcity.gov.ph/citizens-charter-2/
+
+### All Departments with Citizen's Charter PDFs:
+
+1. **Bacolod City College (BCC)**
+2. **Bacolod City Public Library**
+3. **Bacolod City Tourism Development Office**
+4. **Bacolod Housing Authority (BHA)**
+5. **City Administrator's Office**
+6. **City Assessor's Office**
+7. **City Budget Office**
+8. **City Cooperative and Livelihood Development Office (CCLDO)**
+9. **City Department of Agriculture**
+10. **City Engineer's Office (CEO)**
+11. **City Health Office (CHO)**
+12. **City Planning and Development Office (CPDO)**
+13. **City Population Office**
+14. **City Treasurer's Office – Land Tax Division**
+15. **City Treasurer's Office – License Division**
+16. **City Veterinary Office**
+17. **CTO - Cash Division**
+18. **Department of Public Services**
+19. **Department of Social Services and Development (DSSD)**
+20. **Disaster Risk Reduction and Management Office (DRRMO)**
+21. **Environment and Natural Resources Office (BENRO)**
+22. **General Services Office (GSO)**
+23. **Human Resource Management Services (HRMS)**
+24. **Management Information Technology and Computer Services (MITCS)**
+25. **Office of the Building Official (OBO)**
+26. **Office of the City Accountant**
+27. **Office of the City Civil Registrar (CCR)**
+28. **Office of the City Legal**
+29. **Office of the City Mayor**
+30. **Office of the City Treasurer - Admin Division**
+31. **Office of the Sangguniang Panlungsod (SP)**
+32. **Permits and License Division (BPLO)**
+33. **Public Affairs and Assistance Division**
+34. **Public Employment Service Office (PESO)**
+35. **Socio-Economic Enterprise Units (SEEU)**
+36. **Urban Basic Services Division (UBSD)**
+
+### Key Departments for Our Services:
+
+**Health:**
+
+- City Health Office (CHO)
+
+**Business:**
+
+- Permits and License Division (BPLO)
+- City Treasurer's Office (License Division)
+- Office of the Building Official (OBO)
+
+**Employment:**
+
+- Public Employment Service Office (PESO)
+
+**Environment/Waste:**
+
+- Environment and Natural Resources Office (BENRO)
+
+**Social Services:**
+
+- Department of Social Services and Development (DSSD)
+- Urban Basic Services Division (UBSD)
+
+**Education:**
+
+- Bacolod City College (BCC)
+- Bacolod City Public Library
+
+---
+
+**Status:** ✅ Citizen's Charter scraped (1/27 pages complete)
