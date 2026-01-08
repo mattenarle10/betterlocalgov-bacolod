@@ -25,11 +25,13 @@
 
 ### Official Facebook Pages
 
-- **Bacolod City Government**: [facebook.com/baabordo](https://www.facebook.com/baabordo)
-- **Serbisyo Patrol**: [facebook.com/serbisyopatrolbacolod](https://www.facebook.com/serbisyopatrolbacolod)
-- **PESO Bacolod City**: [facebook.com/PESOBacolodCity](https://www.facebook.com/PESOBacolodCity)
-- **Bacolod BTTMD (Traffic)**: [facebook.com/BacolodBTTMD](https://www.facebook.com/BacolodBTTMD)
-- **DepEd Bacolod City**: [facebook.com/DepEdBacolodCity](https://www.facebook.com/DepEdBacolodCity)
+- **PESO Bacolod LGU**: [facebook.com/PesoBacolodLGU](https://www.facebook.com/PesoBacolodLGU)
+- **Bacolod City Government**: _(verify actual page name)_
+- **Serbisyo Patrol**: _(verify actual page name)_
+- **Bacolod BTTMD (Traffic)**: _(verify actual page name)_
+- **DepEd Bacolod City**: _(verify actual page name)_
+
+> ⚠️ **DO NOT make up links. Only add verified URLs.**
 
 ### Hotlines
 
