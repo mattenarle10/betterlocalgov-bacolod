@@ -83,3 +83,7 @@ The Bacolod City Government operates daycare centers through barangays and suppo
 - Enroll early — slots may be limited
 - Keep copies of birth certificate and barangay certificate ready
 - Attend parent orientations
+
+---
+
+**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph)

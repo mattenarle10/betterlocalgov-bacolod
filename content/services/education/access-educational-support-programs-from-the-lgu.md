@@ -80,3 +80,7 @@ The city distributes school supplies to public school students using the Special
 - Follow PESO Bacolod on Facebook for announcements
 - Keep documents ready: birth certificate, barangay certificate, school ID, report cards
 - Apply to multiple programs where allowed
+
+---
+
+**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph) — PESO Bacolod Programs

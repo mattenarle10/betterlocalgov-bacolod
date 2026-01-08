@@ -74,3 +74,7 @@ The Bacolod City Government provides scholarship assistance to deserving student
 - Keep documents ready (birth certificate, barangay certificate, grades)
 - Follow PESO Bacolod on Facebook for announcements
 - Deadlines change every cycle - always check current postings
+
+---
+
+**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph) — PESO Scholarship Program (December 2025)

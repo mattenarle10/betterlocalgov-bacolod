@@ -74,3 +74,7 @@ Common clubs found in Bacolod schools:
 - Ask advisers about safety protocols and meeting times
 - Balance academics and extracurriculars
 - Encourage leadership roles (secretary, treasurer, etc.)
+
+---
+
+**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph)
