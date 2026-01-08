@@ -83,4 +83,4 @@ The city distributes school supplies to public school students using the Special
 
 ---
 
-**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph) — PESO Bacolod Programs
+**Source:** [Bacolod LGU Releases Christmas Allowance to 814 Scholars](https://bacolodcity.gov.ph/bacolod-lgu-releases-christmas-allowance-to-814-scholars/) — December 24, 2025

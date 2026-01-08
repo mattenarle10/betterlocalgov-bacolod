@@ -77,4 +77,4 @@ The Bacolod City Government provides scholarship assistance to deserving student
 
 ---
 
-**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph) — PESO Scholarship Program (December 2025)
+**Source:** [Bacolod LGU Releases Christmas Allowance to 814 Scholars](https://bacolodcity.gov.ph/bacolod-lgu-releases-christmas-allowance-to-814-scholars/) — December 24, 2025

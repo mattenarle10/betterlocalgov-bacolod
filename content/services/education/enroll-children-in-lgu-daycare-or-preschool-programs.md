@@ -86,4 +86,4 @@ The Bacolod City Government operates daycare centers through barangays and suppo
 
 ---
 
-**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph)
+**Source:** [Bacolod City Citizen's Charter](https://bacolodcity.gov.ph/citizens-charter-2/)

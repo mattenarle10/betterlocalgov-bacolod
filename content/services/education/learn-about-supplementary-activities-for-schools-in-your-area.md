@@ -77,4 +77,4 @@ Common clubs found in Bacolod schools:
 
 ---
 
-**Source:** [bacolodcity.gov.ph](https://bacolodcity.gov.ph)
+**Source:** [Pasidungog Awards 2025](https://bacolodcity.gov.ph/bacolodnon-athletes-academic-achievers-honored-at-2025-pasidungog-awards/) — December 13, 2025
