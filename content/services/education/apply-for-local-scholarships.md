@@ -61,10 +61,12 @@ The Bacolod City Government provides scholarship assistance to deserving student
 
 ## Contact Information
 
-- **PESO Bacolod**
-- **Location**: Bacolod City Government Center
+- **Public Employment Services Office (PESO) Bacolod**
 - **Phone**: (034) 434-9122
-- **Facebook**: Search "PESO Bacolod City"
+- **Email**: peso@bacolodcity.gov.ph
+- **Location**: Bacolod City Government Center, Circumferential Rd, Brgy. Villamonte, Bacolod City, 6100 Negros Occidental
+- **Website**: [bacolodcity.gov.ph](https://bacolodcity.gov.ph/trabaho-sa-peso-bacolod/)
+- **Facebook**: [PESO Bacolod LGU](https://www.facebook.com/PesoBacolodLGU)
 
 ---
 
@@ -77,4 +79,9 @@ The Bacolod City Government provides scholarship assistance to deserving student
 
 ---
 
-**Source:** [Bacolod LGU Releases Christmas Allowance to 814 Scholars](https://bacolodcity.gov.ph/bacolod-lgu-releases-christmas-allowance-to-814-scholars/) — December 24, 2025
+**Sources:**
+
+- [Bacolod LGU Releases Christmas Allowance to 814 Scholars](https://bacolodcity.gov.ph/bacolod-lgu-releases-christmas-allowance-to-814-scholars/) — Dec 24, 2025
+- [Trabaho sa PESO Bacolod](https://bacolodcity.gov.ph/trabaho-sa-peso-bacolod/) — Jan 8, 2026
+- [Bacolod City Contact Information](https://bacolodcity.gov.ph/contact-us/) — Jan 8, 2026
+- **FB:** [PESO Bacolod LGU](https://www.facebook.com/PesoBacolodLGU) (Verified)

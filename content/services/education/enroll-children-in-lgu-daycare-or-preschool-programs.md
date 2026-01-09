@@ -69,12 +69,14 @@ The Bacolod City Government operates daycare centers through barangays and suppo
 
 ## Contact Information
 
-- **City Social Welfare and Development Office (CSWDO)**
-- **Location**: Bacolod City Government Center
+- **Department of Social Services and Development (DSSD)**
 - **Phone**: (034) 434-9122
+- **Email**: dssd@bacolodcity.gov.ph
+- **Location**: Bacolod City Government Center, Circumferential Rd, Brgy. Villamonte, Bacolod City, 6100 Negros Occidental
+- **Website**: [bacolodcity.gov.ph](https://bacolodcity.gov.ph)
 
 - **DepEd Bacolod City Division**
-- **Website**: [deped-bacolod.com](https://deped-bacolod.com)
+- **Website**: [depedbacolod.net](https://www.depedbacolod.net/)
 
 ---
 
@@ -86,4 +88,8 @@ The Bacolod City Government operates daycare centers through barangays and suppo
 
 ---
 
-**Source:** [Bacolod City Citizen's Charter](https://bacolodcity.gov.ph/citizens-charter-2/)
+**Sources:**
+
+- [Bacolod City Citizen's Charter](https://bacolodcity.gov.ph/citizens-charter-2/) — Jan 8, 2026
+- [Bacolod City Contact Information](https://bacolodcity.gov.ph/contact-us/) — Jan 8, 2026
+- [DepEd Bacolod City Division](https://www.depedbacolod.net/)

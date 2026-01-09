@@ -63,9 +63,13 @@ Common clubs found in Bacolod schools:
 ## Contact Information
 
 - **DepEd Bacolod City Division**
-- **Website**: [deped-bacolod.com](https://deped-bacolod.com)
+- **Website**: [depedbacolod.net](https://www.depedbacolod.net/)
 
 - **Your Barangay SK Office** — for local youth programs
+
+- **Bacolod City Government**
+- **Phone**: (034) 434-9122
+- **Website**: [bacolodcity.gov.ph](https://bacolodcity.gov.ph)
 
 ---
 
@@ -77,4 +81,8 @@ Common clubs found in Bacolod schools:
 
 ---
 
-**Source:** [Pasidungog Awards 2025](https://bacolodcity.gov.ph/bacolodnon-athletes-academic-achievers-honored-at-2025-pasidungog-awards/) — December 13, 2025
+**Sources:**
+
+- [Pasidungog Awards 2025](https://bacolodcity.gov.ph/bacolodnon-athletes-academic-achievers-honored-at-2025-pasidungog-awards/) — Dec 13, 2025
+- [Bacolod City Contact Information](https://bacolodcity.gov.ph/contact-us/) — Jan 8, 2026
+- [DepEd Bacolod City Division](https://www.depedbacolod.net/)
