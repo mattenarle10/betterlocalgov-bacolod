@@ -37,7 +37,7 @@ Illegal dumping, open burning, and improper waste practices are violations of **
 
 ## 3) What Happens After Reporting
 
-- **Barangay/CENRO inspection team** will visit the site.
+- **Barangay/BENRO inspection team** will visit the site.
 - **Offenders may be fined or penalized** under city ordinances.
 - For businesses, repeated violations can lead to **closure or suspension of business permits**.
 - Collected evidence (photos, witness accounts) strengthens enforcement action.

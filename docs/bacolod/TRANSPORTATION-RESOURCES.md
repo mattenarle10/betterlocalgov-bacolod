@@ -61,6 +61,30 @@ Tricycles serve barangay and short-distance routes.
 - Negotiate fare for special trips
 - Available in all barangays
 
+### Inter-Island Transport (BREDCO - Iloilo to Bacolod Routes)
+
+**BREDCO (Bacolod Real Estate Development Corporation)** operates the Banago Port for inter-island passenger and cargo services.
+
+**Routes:**
+
+- **Iloilo to Bacolod** (and vice versa)
+- Regular ferry services
+- Bus + Ferry combination packages available
+
+**Banago Port:**
+
+- Location: Banago, Bacolod City
+- Services: Passenger terminal, cargo handling
+- Main route: Connects to Iloilo City port
+
+**For schedules and bookings:**
+
+- Visit Banago Port directly
+- Check with ferry operators (Weesam Express, FastCat, etc.)
+- Book combination bus+ferry tickets for seamless travel
+
+**Travel Time:** Approximately 1 hour by fast ferry (Iloilo-Bacolod)
+
 ---
 
 ## 🏢 Government Offices (Transportation-Related)

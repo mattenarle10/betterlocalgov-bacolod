@@ -11,7 +11,7 @@ Proper waste segregation is **mandatory** in Bacolod City under **Republic Act 9
 | **Biodegradable**           | Food scraps, vegetable/fruit peelings, garden waste, paper towels                | Place in green container/biodegradable bin; collected by trucks; can also be composted at home/barangay MRF        |
 | **Recyclable**              | Plastic bottles, glass, tin/aluminum cans, paper, cartons, scrap metal           | Clean and dry before disposal; place in blue container/recyclable bin; bring to junkshops or barangay MRF          |
 | **Residual**                | Used diapers, styrofoam, plastic wrappers, sachets, contaminated paper, ceramics | Place in black container/residual bin; collected by trucks and sent to sanitary landfill                           |
-| **Special/Hazardous Waste** | Batteries, light bulbs, e-waste, paint cans, chemicals, medical waste            | Do **not** mix with regular waste; bring to barangay/CENRO special collection drives or accredited drop-off points |
+| **Special/Hazardous Waste** | Batteries, light bulbs, e-waste, paint cans, chemicals, medical waste            | Do **not** mix with regular waste; bring to barangay/BENRO special collection drives or accredited drop-off points |
 
 ---
 
@@ -21,7 +21,7 @@ Proper waste segregation is **mandatory** in Bacolod City under **Republic Act 9
 - **Rinse recyclables** to avoid pests and foul odor.
 - **Do not burn waste** — open burning is prohibited under RA 9003 and the Clean Air Act.
 - **Put garbage out only on your barangay’s collection day** to avoid clutter and flooding.
-- For **bulk items (furniture, appliances)** → request a **special pickup** through your Barangay Hall or CENRO.
+- For **bulk items (furniture, appliances)** → request a **special pickup** through your Barangay Hall or BENRO.
 - **Construction debris** must be hauled by accredited haulers; not allowed in household collection.
 
 ---
@@ -38,7 +38,7 @@ Proper waste segregation is **mandatory** in Bacolod City under **Republic Act 9
 
 - Must maintain **segregated waste bins** accessible to customers and staff.
 - Required to **contract accredited haulers** for industrial, medical, or hazardous waste.
-- Keep disposal receipts/hauler contracts for inspection by CENRO.
+- Keep disposal receipts/hauler contracts for inspection by BENRO.
 - Restaurants/food-related establishments should explore **onsite composting** or regular turnover to barangay MRFs.
 
 ---
