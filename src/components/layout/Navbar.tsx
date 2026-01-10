@@ -89,13 +89,8 @@ const Navbar: React.FC = () => {
               <img
                 src="/nav-logo.jpg"
                 alt="Bacolod City Logo"
-                className="h-12 w-auto mr-3"
+                className="h-16 w-auto"
               />
-              <div>
-                <div className="text-black font-bold text-lg">
-                  {import.meta.env.VITE_GOVERNMENT_NAME}
-                </div>
-              </div>
             </Link>
           </div>
 
