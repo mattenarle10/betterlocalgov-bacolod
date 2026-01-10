@@ -41,6 +41,7 @@ import disasterPreparednessIndex from '../../content/services/disaster-preparedn
 import housingLandUseIndex from '../../content/services/housing-land-use/index.yaml?raw';
 import transportationIndex from '../../content/services/transportation/index.yaml?raw';
 import publicSafetyIndex from '../../content/services/public-safety/index.yaml?raw';
+import legalCivilIndex from '../../content/services/legal-civil/index.yaml?raw';
 
 // Create a mapping of category slugs to their YAML content
 const categoryIndexMap: { [key: string]: string } = {
@@ -56,6 +57,7 @@ const categoryIndexMap: { [key: string]: string } = {
   'disaster-preparedness': disasterPreparednessIndex,
   'public-safety': publicSafetyIndex,
   'housing-land-use': housingLandUseIndex,
+  'legal-civil': legalCivilIndex,
 };
 
 // Parse the YAML content

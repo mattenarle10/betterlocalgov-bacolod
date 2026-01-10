@@ -57,17 +57,11 @@ categories:
     slug: 'environment'
     description: 'Clean-up or tree planting activities, environmental protection rules, and conservation programs.'
     icon: 'TreePine'
-  
-  # Disaster Preparedness Services
-  - category: 'Disaster Preparedness'
-    slug: 'disaster-preparedness'
-    description: 'Disaster preparedness plans, emergency response information, and evacuation procedures.'
-    icon: 'Shield'
 
-  # Public Safety Services
-  - category: 'Public Safety'
+  # Public Safety & Disaster Preparedness
+  - category: 'Public Safety & Disaster Preparedness'
     slug: 'public-safety'
-    description: 'Emergency hotlines (911, DRRMO, BFP), fire safety certificates, crime reporting, disaster response, and public safety concerns.'
+    description: 'Emergency hotlines (911, DRRMO, BFP), fire safety certificates, disaster response, evacuation procedures, and crime reporting.'
     icon: 'ShieldAlert'
 
   # Housing & Land Use Services
@@ -75,4 +69,10 @@ categories:
     slug: 'housing-land-use'
     description: 'How to apply for housing projects, what zoning and building permits are needed, and where relocation sites are available.'
     icon: 'Home'
+
+  # Legal & Civil Services
+  - category: 'Legal & Civil Services'
+    slug: 'legal-civil'
+    description: 'Birth, marriage, and death certificates, legal assistance, notarial services, and community tax certificates (cedula).'
+    icon: 'Scale'
   

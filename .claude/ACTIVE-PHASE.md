@@ -2,11 +2,11 @@
 
 > **Current work - Updated by Claude after each phase**
 
-## Current Phase: Ready for Phase 8 (Legal & Civil) - FINAL PHASE!
+## Current Phase: Phase 8 Complete! 🎉
 
-**Status:** Phase 7 complete, routing fixed, 1 phase left!
-**Next:** Legal & Civil (civil registration, legal assistance, notarial services, cedula)
-**Progress:** 58% content complete (28/48 total service files)
+**Status:** Phase 8 (Legal & Civil) complete - 32/48 files done (67%)
+**Next:** Optional high-priority categories (Housing, Environment, Infrastructure)
+**Progress:** 67% content complete (32/48 total service files)
 
 ## Recent Fixes (Jan 11, 2026)
 
@@ -37,6 +37,19 @@
 **Note:** These have index.yaml configs but no actual content files (.md). They show generic descriptions on the website.
 
 ## Completed Phases
+
+### ✅ Phase 8: Legal & Civil Services
+
+**Completed:** Jan 11, 2026
+**Files Created:** 4
+**Commit:** [pending]
+
+- Get birth, marriage, death certificates (Local Civil Registrar)
+- Access free legal assistance (PAO, IBP)
+- Get documents notarized (Notary Public services)
+- Apply for Community Tax Certificate (Cedula)
+
+**Details:** Added complete Legal & Civil category with LCR contact (Atty. Hermilo Pao-yon), City Treasurer (Jose Maria Gecosala), PAO info, notarial services guide, and cedula procedures. Merged Disaster Preparedness into Public Safety to maintain 12 categories.
 
 ### ✅ Phase 7: Public Safety
 
