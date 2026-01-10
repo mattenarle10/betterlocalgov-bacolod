@@ -83,19 +83,19 @@ const Navbar: React.FC = () => {
 
       {/* Main navigation */}
       <div className="container mx-auto px-4">
-        <div className="flex items-center py-4">
-          <div className="flex items-center">
+        <div className="flex items-center justify-between py-2">
+          <div className="flex items-center" style={{ minWidth: '200px' }}>
             <Link to="/" className="flex items-center">
               <img
                 src="/nav-logo.jpg"
                 alt="Bacolod City Logo"
-                className="h-16 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </div>
 
           {/* Desktop navigation */}
-          <div className="hidden lg:flex items-center space-x-8 flex-1 justify-center">
+          <div className="hidden lg:flex items-center space-x-8 justify-center flex-1">
             {mainNavigation.map(item => (
               <div key={item.label} className="relative group">
                 <Link
