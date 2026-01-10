@@ -4,8 +4,37 @@
 
 ## Current Phase: Ready for Phase 8 (Legal & Civil) - FINAL PHASE!
 
-**Status:** Phase 7 complete, 1 phase left!
+**Status:** Phase 7 complete, routing fixed, 1 phase left!
 **Next:** Legal & Civil (civil registration, legal assistance, notarial services, cedula)
+**Progress:** 58% content complete (28/48 total service files)
+
+## Recent Fixes (Jan 11, 2026)
+
+### ✅ Service Category Routing Fixed
+
+**Commits:** b44aa45, 40e1af1
+
+**Issues Fixed:**
+
+- Transportation and Public Safety cards not showing on /services page
+- Empty service listings on /services/transportation and /services/public-safety
+- Added categories to services.yaml and yamlLoader.ts categoryIndexMap
+
+**All 12 categories now working:**
+✓ Health, Education, Business, Social Welfare, Agriculture, Infrastructure
+✓ Transportation, Garbage/Waste, Environment, Disaster Prep, Public Safety, Housing
+
+## Missing Content Categories
+
+### Categories WITHOUT Bacolod-Specific Files Yet:
+
+1. **Agriculture & Fisheries** (0/4 files) - seeds, veterinary, training, equipment
+2. **Disaster Preparedness** (0/3 files) - drills, evacuation, early warning
+3. **Environment** (0/2 files) - clean-up drives, illegal logging reporting
+4. **Housing & Land Use** (0/3 files) - socialized housing, zoning, relocation
+5. **Infrastructure & Public Works** (0/4 files) - damaged roads, water supply, public facilities
+
+**Note:** These have index.yaml configs but no actual content files (.md). They show generic descriptions on the website.
 
 ## Completed Phases
 
@@ -13,7 +42,7 @@
 
 **Completed:** Jan 10, 2026
 **Files Created:** 4
-**Commit:** Pending
+**Commits:** 572becf, 342a33f, b44aa45, 40e1af1
 
 - Fire Safety Inspection Certificate (FSIC from BFP)
 - Emergency hotlines and disaster response (911, DRRMO, BFP, PNP)
@@ -25,7 +54,7 @@
 
 **Completed:** Jan 10, 2026
 **Files Created:** 4
-**Commit:** Pending
+**Commits:** 8c919b1, 572becf
 
 - Senior citizen benefits and discounts
 - PWD ID registration and disability benefits
@@ -37,7 +66,7 @@
 
 **Completed:** Jan 10, 2026
 **Files Created:** 4
-**Commit:** Pending
+**Commits:** 0ed9d96, 342a33f
 
 - Public transport routes & schedules (with CommuteBacolod.com)
 - Transport permits & franchise registration
