@@ -36,12 +36,9 @@ export const footerNavigation = {
     {
       title: 'About',
       links: [
-        { label: 'About the Portal', href: '/about' },
-        // { label: 'Privacy Policy', href: '/privacy' },
-        // { label: 'Terms of Use', href: '/terms' },
-        { label: 'Accessibility', href: '/accessibility' },
+        { label: 'About BetterBacolod', href: '/about' },
+        { label: 'Bacolod City Website', href: 'https://bacolodcity.gov.ph' },
         { label: 'Contact Us', href: '/about' },
-        { label: 'Community Discord', href: '/discord' },
       ],
     },
     {
@@ -49,35 +46,27 @@ export const footerNavigation = {
       links: [
         { label: 'All Services', href: '/services' },
         ...(servicesData.categories as Category[])
-          .slice(0, 6)
+          .slice(0, 5)
           .map(category => ({
             label: category.category,
             href: `/services/${category.slug}`,
           })),
-        { label: 'Hotlines', href: '/philippines/hotlines' },
-        { label: 'Holidays', href: '/philippines/holidays' },
       ],
     },
     {
       title: 'Government',
       links: [
-        { label: 'Open Data', href: 'https://data.gov.ph' },
-        { label: 'Freedom of Information', href: 'https://www.foi.gov.ph' },
-        {
-          label: 'Contact Center',
-          href: 'https://contactcenterngbayan.gov.ph',
-        },
-        {
-          label: 'Official Gazette',
-          href: 'https://www.officialgazette.gov.ph',
-        },
+        { label: 'City Officials', href: '/government' },
+        { label: 'Departments', href: '/government' },
+        { label: 'Barangays', href: '/government' },
+        { label: 'Transparency', href: '/transparency' },
       ],
     },
   ],
   socialLinks: [
-    { label: 'Facebook', href: 'https://facebook.com/govph' },
-    { label: 'Twitter', href: 'https://twitter.com/govph' },
-    { label: 'Instagram', href: 'https://instagram.com/govph' },
-    { label: 'YouTube', href: 'https://youtube.com/govph' },
+    {
+      label: 'Facebook',
+      href: 'https://www.facebook.com/BacolodStrongerTogether',
+    },
   ],
 };

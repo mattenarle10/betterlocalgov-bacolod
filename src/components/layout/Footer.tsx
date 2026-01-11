@@ -1,66 +1,40 @@
-import React from 'react';
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
-  CheckCircle2,
-} from 'lucide-react';
+import { Facebook } from 'lucide-react';
 import { footerNavigation } from '../../data/navigation';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
-  const { t } = useTranslation('common');
-
-  const getSocialIcon = (label: string) => {
-    switch (label) {
-      case 'Facebook':
-        return <Facebook className="h-5 w-5" />;
-      case 'Twitter':
-        return <Twitter className="h-5 w-5" />;
-      case 'Instagram':
-        return <Instagram className="h-5 w-5" />;
-      case 'YouTube':
-        return <Youtube className="h-5 w-5" />;
-      default:
-        return null;
-    }
-  };
-
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 pt-12 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <CheckCircle2 className="h-12 w-12 mr-3" />
-              {/* <img
-                src="/ph-logo.webp"
-                alt="Philippines Coat of Arms"
+              <img
+                src="/B-Logo/BetterBacolod Icons_favicon tp.png"
+                alt="BetterBacolod"
                 className="h-12 w-12 mr-3"
-              /> */}
-
+              />
               <div>
-                <div className="font-bold">{t('site_name')}</div>
-                <div className="text-xs text-gray-400">BetterGov.ph Portal</div>
+                <div className="font-bold">BetterBacolod</div>
+                <div className="text-xs text-gray-400">
+                  Civic Tech for Bacolod City
+                </div>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              A community portal providing Philippine citizens, businesses, and
-              visitors with information and services.
+              Open-source initiative for accessible government information.
             </p>
             <div className="flex space-x-4">
               {footerNavigation.socialLinks.map(link => (
-                <Link
+                <a
                   key={link.label}
-                  to={link.href}
+                  href={link.href}
                   className="text-gray-400 hover:text-white transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {getSocialIcon(link.label)}
-                </Link>
+                  <Facebook className="h-5 w-5" />
+                </a>
               ))}
             </div>
           </div>
@@ -69,16 +43,29 @@ const Footer: React.FC = () => {
             <div key={section.title}>
               <h3 className="text-lg font-semibold mb-4">{section.title}</h3>
               <ul className="space-y-2">
-                {section.links.map(link => (
-                  <li key={link.label}>
-                    <Link
-                      to={link.href}
-                      className="text-gray-400 hover:text-white text-sm transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
+                {section.links.map(link =>
+                  link.href.startsWith('http') ? (
+                    <li key={link.label}>
+                      <a
+                        href={link.href}
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ) : (
+                    <li key={link.label}>
+                      <Link
+                        to={link.href}
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  )
+                )}
               </ul>
             </div>
           ))}
@@ -87,39 +74,24 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              {t('footer.copyright')}
+              © {new Date().getFullYear()} BetterBacolod. Not an official
+              government website.
             </p>
             <div className="flex space-x-6">
-              {/* <a
-                href="/privacy"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Privacy Policy
-              </a>
               <a
-                href="/terms"
+                href="https://github.com/iyanski/betterlocalgov"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Terms of Use
-              </a> */}
-              <Link
-                to="https://github.com/bettergovph/bettergov"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Contribute at GitHub
-              </Link>
+                GitHub
+              </a>
               <Link
                 to="/sitemap"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Sitemap
               </Link>
-              <a
-                href="/accessibility"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Accessibility
-              </a>
             </div>
           </div>
         </div>
