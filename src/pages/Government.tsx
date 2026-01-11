@@ -11,9 +11,9 @@ import { createMarkdownComponents } from '../lib/markdownComponents';
 import { getTypographyTheme } from '../lib/typographyThemes';
 import { useState } from 'react';
 import OfficialsSection from '../components/government/OfficialsSection';
+import DepartmentsSection from '../components/government/DepartmentsSection';
 
-// Import markdown files for departments and barangays
-import departmentsContent from '../../content/government/departments.md?raw';
+// Import markdown for barangays
 import barangaysContent from '../../content/government/barangays.md?raw';
 
 const Government: React.FC = () => {
@@ -27,14 +27,7 @@ const Government: React.FC = () => {
       return <OfficialsSection />;
     }
     if (activeSection === 'departments') {
-      return (
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm]}
-          components={markdownComponents}
-        >
-          {departmentsContent}
-        </ReactMarkdown>
-      );
+      return <DepartmentsSection />;
     }
     if (activeSection === 'barangays') {
       return (
