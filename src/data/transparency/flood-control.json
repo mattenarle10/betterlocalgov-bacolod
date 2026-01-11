@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "totalProjects": 39,
+    "totalCost": 1520452454.93,
+    "uniqueContractors": 23
+  },
+  "byYear": [
+    { "year": "2021", "count": 4 },
+    { "year": "2022", "count": 9 },
+    { "year": "2023", "count": 23 },
+    { "year": "2024", "count": 3 }
+  ],
+  "byType": [
+    { "type": "Construction of Drainage Structure", "count": 19 },
+    { "type": "Construction of Revetment", "count": 15 },
+    { "type": "Construction of Flood Mitigation Structure", "count": 5 }
+  ],
+  "topContractors": [
+    { "name": "A.C. Rivero Development Corporation", "count": 4 },
+    { "name": "Homeworld Construction Corp.", "count": 4 },
+    { "name": "Supreme ABF Const. & Const. Supply Company Inc.", "count": 3 },
+    { "name": "Goldstar Marketing & Construction Services, Inc.", "count": 2 },
+    { "name": "Wilkinson Construction", "count": 2 }
+  ],
+  "recentProjects": [
+    {
+      "year": 2024,
+      "description": "Construction of Revetment with Floodwall in Bakyas Creek",
+      "cost": 96500000,
+      "contractor": "C'Zarles Construction & Supply / JVC Tough Core Construction"
+    },
+    {
+      "year": 2024,
+      "description": "Construction of Revetment with Floodwall in Ngalan River",
+      "cost": 96500000,
+      "contractor": "C'Zarles Construction & Supply / JVC Tough Core Construction"
+    },
+    {
+      "year": 2023,
+      "description": "Construction of Lupit River Flood Control Structure, Phase 7",
+      "cost": 96500000,
+      "contractor": "Legacy Construction Corporation / M.K.U. Construction"
+    },
+    {
+      "year": 2023,
+      "description": "Construction of Revetment with Floodwall along Sum-ag River",
+      "cost": 96500000,
+      "contractor": "Supreme ABF Const. & Const. Supply Company Inc."
+    },
+    {
+      "year": 2023,
+      "description": "Construction of Revetment with Floodwall along Magsungay River",
+      "cost": 96500000,
+      "contractor": "Supreme ABF Const. / Canlaon Builders"
+    }
+  ],
+  "source": "DPWH Flood Control Information System via BetterGov.ph",
+  "lastUpdated": "2024"
+}
