@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
                 </a>
               ))}
               <a
-                href="https://github.com/iyanski/betterlocalgov"
+                href="https://github.com/betterbacolod/betterbacolod"
                 className="p-2 bg-slate-800 rounded-lg text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
