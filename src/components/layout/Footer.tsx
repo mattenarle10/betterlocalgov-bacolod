@@ -71,28 +71,29 @@ const Footer: React.FC = () => {
           ))}
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} BetterBacolod. Not an official
-              government website.
-            </p>
-            <div className="flex space-x-6">
-              <a
-                href="https://github.com/iyanski/betterlocalgov"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <Link
-                to="/sitemap"
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Sitemap
-              </Link>
-            </div>
+        <div className="border-t border-gray-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
+          <p className="text-gray-500 text-xs">
+            © {new Date().getFullYear()} BetterBacolod · Not an official
+            government website
+          </p>
+          <span className="inline-flex items-center gap-1 px-2 py-1 bg-white text-gray-900 text-xs rounded-full">
+            💸 Cost to build this site: ₱435.39
+          </span>
+          <div className="flex gap-6">
+            <a
+              href="https://github.com/iyanski/betterlocalgov"
+              className="text-gray-400 hover:text-white text-xs transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contribute on GitHub
+            </a>
+            <Link
+              to="/sitemap"
+              className="text-gray-400 hover:text-white text-xs transition-colors"
+            >
+              Sitemap
+            </Link>
           </div>
         </div>
       </div>
