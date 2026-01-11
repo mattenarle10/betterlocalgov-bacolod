@@ -36,11 +36,13 @@ const Government: React.FC = () => {
         keywords="government, city officials, departments, barangays, Bacolod City"
       />
       <Section>
-        <Heading level={2}>Bacolod City Government</Heading>
-        <Text className="text-gray-600 mb-6">
-          Learn about your city officials, government departments, and
-          barangays.
-        </Text>
+        <div className="text-center mb-10">
+          <Heading level={2}>Bacolod City Government</Heading>
+          <Text className="text-gray-600 max-w-2xl mx-auto">
+            Learn about your city officials, government departments, and
+            barangays.
+          </Text>
+        </div>
 
         {/* Category Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
