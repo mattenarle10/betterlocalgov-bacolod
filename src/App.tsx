@@ -20,7 +20,6 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/services/:category" element={<Services />} />
               <Route path="/services" element={<Services />} />
-              <Route path="/government/:category" element={<Government />} />
               <Route path="/government" element={<Government />} />
               <Route path="/:lang/:documentSlug" element={<Document />} />
               <Route path="/:documentSlug" element={<Document />} />

@@ -42,11 +42,6 @@ import transportationIndex from '../../content/services/transportation/index.yam
 import publicSafetyIndex from '../../content/services/public-safety/index.yaml?raw';
 import legalCivilIndex from '../../content/services/legal-civil/index.yaml?raw';
 
-// Government category index files
-import officialsIndex from '../../content/government/officials/index.yaml?raw';
-import departmentsIndex from '../../content/government/departments/index.yaml?raw';
-import barangaysIndex from '../../content/government/barangays/index.yaml?raw';
-
 // Create a mapping of category slugs to their YAML content
 const categoryIndexMap: { [key: string]: string } = {
   'health-services': healthServicesIndex,
@@ -61,10 +56,6 @@ const categoryIndexMap: { [key: string]: string } = {
   'public-safety': publicSafetyIndex,
   'housing-land-use': housingLandUseIndex,
   'legal-civil': legalCivilIndex,
-  // Government categories
-  officials: officialsIndex,
-  departments: departmentsIndex,
-  barangays: barangaysIndex,
 };
 
 // Parse the YAML content
