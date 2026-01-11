@@ -83,63 +83,63 @@ export default function OfficialsSection() {
     <div className="space-y-8">
       {/* Executive Branch */}
       <section>
-        <h2 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
+        <h2 className="text-lg font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-300">
           Executive Branch
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Mayor */}
-          <div className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors">
-            <p className="text-xs font-medium text-primary-600 uppercase tracking-wide">
+          <div className="bg-white border border-gray-300 rounded-lg p-4 hover:border-primary-400 hover:shadow-sm transition-all">
+            <p className="text-xs font-semibold text-primary-600 uppercase tracking-wide">
               Mayor
             </p>
             <h3 className="text-base font-semibold text-gray-900 mt-1">
               Hon. Greg Gasataya
             </h3>
-            <p className="text-sm text-gray-500">44th Mayor of Bacolod City</p>
-            <div className="mt-3 space-y-1 text-sm text-gray-600">
+            <p className="text-sm text-gray-600">44th Mayor of Bacolod City</p>
+            <div className="mt-3 space-y-1 text-sm text-gray-700">
               <p className="flex items-center gap-2">
-                <Phone className="h-3.5 w-3.5 text-gray-400" />
+                <Phone className="h-3.5 w-3.5 text-primary-500" />
                 (034) 434-9122
               </p>
               <p className="flex items-center gap-2">
-                <Mail className="h-3.5 w-3.5 text-gray-400" />
+                <Mail className="h-3.5 w-3.5 text-primary-500" />
                 mayorggasataya@bacolodcity.gov.ph
               </p>
             </div>
           </div>
 
           {/* Vice Mayor */}
-          <div className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors">
-            <p className="text-xs font-medium text-primary-600 uppercase tracking-wide">
+          <div className="bg-white border border-gray-300 rounded-lg p-4 hover:border-primary-400 hover:shadow-sm transition-all">
+            <p className="text-xs font-semibold text-primary-600 uppercase tracking-wide">
               Vice Mayor
             </p>
             <h3 className="text-base font-semibold text-gray-900 mt-1">
               Hon. Claudio "Jojo" Puentevella
             </h3>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-600">
               Presiding Officer, Sangguniang Panlungsod
             </p>
-            <div className="mt-3 space-y-1 text-sm text-gray-600">
+            <div className="mt-3 space-y-1 text-sm text-gray-700">
               <p className="flex items-center gap-2">
-                <Phone className="h-3.5 w-3.5 text-gray-400" />
+                <Phone className="h-3.5 w-3.5 text-primary-500" />
                 (034) 703-1284
               </p>
             </div>
           </div>
 
           {/* Congressman */}
-          <div className="border border-gray-200 rounded-lg p-4 hover:border-primary-300 transition-colors">
-            <p className="text-xs font-medium text-primary-600 uppercase tracking-wide">
+          <div className="bg-white border border-gray-300 rounded-lg p-4 hover:border-primary-400 hover:shadow-sm transition-all">
+            <p className="text-xs font-semibold text-primary-600 uppercase tracking-wide">
               Congressman
             </p>
             <h3 className="text-base font-semibold text-gray-900 mt-1">
               Hon. Alfredo "Albee" B. Benitez
             </h3>
-            <p className="text-sm text-gray-500">Bacolod City Lone District</p>
-            <div className="mt-3 space-y-1 text-sm text-gray-600">
+            <p className="text-sm text-gray-600">Bacolod City Lone District</p>
+            <div className="mt-3 space-y-1 text-sm text-gray-700">
               <p className="flex items-center gap-2">
-                <MapPin className="h-3.5 w-3.5 text-gray-400" />
+                <MapPin className="h-3.5 w-3.5 text-primary-500" />
                 House of Representatives, QC
               </p>
             </div>
@@ -149,10 +149,10 @@ export default function OfficialsSection() {
 
       {/* Legislative Branch */}
       <section>
-        <h2 className="text-lg font-semibold text-gray-900 mb-1 pb-2 border-b border-gray-200">
+        <h2 className="text-lg font-semibold text-gray-900 mb-1 pb-2 border-b border-gray-300">
           Legislative Branch
         </h2>
-        <p className="text-sm text-gray-500 mb-4">
+        <p className="text-sm text-gray-600 mb-4">
           Sangguniang Panlungsod — 12 City Councilors
         </p>
 
@@ -160,10 +160,10 @@ export default function OfficialsSection() {
           {councilors.map((c, i) => (
             <div
               key={i}
-              className="border border-gray-200 rounded-lg p-3 hover:border-primary-300 transition-colors"
+              className="bg-white border border-gray-300 rounded-lg p-3 hover:border-primary-400 hover:shadow-sm transition-all"
             >
               <h4 className="font-medium text-gray-900 text-sm">{c.name}</h4>
-              <p className="text-xs text-gray-500 mt-1 leading-relaxed">
+              <p className="text-xs text-gray-600 mt-1 leading-relaxed">
                 {c.committees.join(' • ')}
               </p>
             </div>
@@ -171,17 +171,17 @@ export default function OfficialsSection() {
         </div>
 
         {/* SP Secretary */}
-        <div className="mt-4 bg-gray-50 rounded-lg p-3 text-sm">
-          <span className="font-medium text-gray-700">SP Secretary:</span>{' '}
-          <span className="text-gray-600">Atty. Vicente Petierre III</span>
+        <div className="mt-4 bg-gray-100 rounded-lg p-3 text-sm">
+          <span className="font-medium text-gray-800">SP Secretary:</span>{' '}
+          <span className="text-gray-700">Atty. Vicente Petierre III</span>
           <span className="text-gray-400 mx-2">|</span>
-          <span className="text-gray-600">(034) 431-3603</span>
+          <span className="text-gray-700">(034) 431-3603</span>
           <span className="text-gray-400 mx-2">|</span>
-          <span className="text-gray-600">sprecordsbacolod@gmail.com</span>
+          <span className="text-gray-700">sprecordsbacolod@gmail.com</span>
         </div>
       </section>
 
-      <p className="text-xs text-gray-400 pt-4 border-t border-gray-100">
+      <p className="text-xs text-gray-500 pt-4 border-t border-gray-200">
         Source: bacolodcity.gov.ph/city-councilors
       </p>
     </div>
