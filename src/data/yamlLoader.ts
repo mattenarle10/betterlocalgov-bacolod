@@ -72,35 +72,18 @@ export async function loadCategoryIndex(
   categorySlug: string
 ): Promise<Subcategory[]> {
   try {
-    // Find the category to verify it exists
-    const category = serviceCategories.categories.find(
-      c => c.slug === categorySlug
-    );
-    if (!category) {
-      console.warn(`Category ${categorySlug} not found`);
-      return [];
-    }
-
     // Use the statically imported YAML content from the mapping
-    try {
-      const yamlContent = categoryIndexMap[categorySlug];
+    const yamlContent = categoryIndexMap[categorySlug];
 
-      if (!yamlContent) {
-        console.warn(`Category ${categorySlug} not found in categoryIndexMap`);
-        return [];
-      }
-
-      const indexData: CategoryIndexData = yaml.load(
-        yamlContent
-      ) as CategoryIndexData;
-      return indexData.pages || [];
-    } catch (parseError) {
-      console.warn(
-        `Failed to parse YAML content for category ${categorySlug}:`,
-        parseError
-      );
+    if (!yamlContent) {
+      console.warn(`Category ${categorySlug} not found in categoryIndexMap`);
       return [];
     }
+
+    const indexData: CategoryIndexData = yaml.load(
+      yamlContent
+    ) as CategoryIndexData;
+    return indexData.pages || [];
   } catch (error) {
     console.error(`Error loading category index for ${categorySlug}:`, error);
     return [];

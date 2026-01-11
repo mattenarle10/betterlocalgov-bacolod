@@ -1,0 +1,366 @@
+{
+  "projects": [
+    {
+      "id": "392766c0-858a-4aba-a1d2-94de2a710d9f",
+      "year": 2024,
+      "description": "Construction of Drainage System, Bacolod City",
+      "type": "Drainage",
+      "cost": 6435000,
+      "contractor": "Silverria Construction",
+      "completionDate": "2024-07-21"
+    },
+    {
+      "id": "4dad688c-438e-4b2d-b0ae-12ed35748c6d",
+      "year": 2024,
+      "description": "Revetment with Floodwall in Bakyas Creek",
+      "type": "Revetment",
+      "cost": 96500000,
+      "contractor": "C'Zarles / JVC Tough Core",
+      "completionDate": "2024-10-16"
+    },
+    {
+      "id": "507f4b7d-660b-4cf2-879d-fac2476f651a",
+      "year": 2024,
+      "description": "Revetment with Floodwall in Ngalan River",
+      "type": "Revetment",
+      "cost": 96500000,
+      "contractor": "C'Zarles / JVC Tough Core",
+      "completionDate": "2024-10-16"
+    },
+    {
+      "id": "cf133be9-a989-464f-9fad-f70d5d3fb455",
+      "year": 2023,
+      "description": "Drainage System, Luzuriaga St.",
+      "type": "Drainage",
+      "cost": 19296606,
+      "contractor": "Goldstar Marketing",
+      "completionDate": "2023-08-28"
+    },
+    {
+      "id": "39971290-4777-48f4-951b-65740cbf4326",
+      "year": 2023,
+      "description": "Drainage System, Hilado St.",
+      "type": "Drainage",
+      "cost": 19600000,
+      "contractor": "BNYU Development",
+      "completionDate": "2023-06-22"
+    },
+    {
+      "id": "84369bdd-5efa-49ad-8fb4-91fe4d42c674",
+      "year": 2023,
+      "description": "Drainage System, Lopez Jaena St.",
+      "type": "Drainage",
+      "cost": 29400000,
+      "contractor": "Wilkinson Construction",
+      "completionDate": "2023-12-11"
+    },
+    {
+      "id": "34bb9e42-6e86-45f6-9778-37cfe8cae859",
+      "year": 2023,
+      "description": "Drainage System, La Salle St.",
+      "type": "Drainage",
+      "cost": 19600000,
+      "contractor": "Kenneth Construction",
+      "completionDate": "2024-05-10"
+    },
+    {
+      "id": "a70f2558-8af8-432b-9b9c-8bb2d5dd74f7",
+      "year": 2023,
+      "description": "Flood Control, Cabalagnan Creek Phase 2, Brgy. Pahanocoy",
+      "type": "Flood Mitigation",
+      "cost": 49000000,
+      "contractor": "A.C. Rivero Development",
+      "completionDate": "2023-12-18"
+    },
+    {
+      "id": "f67b9ccf-21ab-4540-a716-886cb21e9408",
+      "year": 2023,
+      "description": "Revetment with Esplanade, Sum-ag River",
+      "type": "Revetment",
+      "cost": 96500000,
+      "contractor": "Supreme ABF Const.",
+      "completionDate": "2024-08-12"
+    },
+    {
+      "id": "74c7f14e-c937-4b42-b41f-f9b8fb85d68f",
+      "year": 2023,
+      "description": "Revetment, Lupit River Phase 2",
+      "type": "Revetment",
+      "cost": 49000000,
+      "contractor": "M.K.U. Construction",
+      "completionDate": "2024-04-03"
+    },
+    {
+      "id": "895d8206-970d-4466-bbcf-b993bbcb95de",
+      "year": 2023,
+      "description": "Revetment with Floodwall, Tangub Creek",
+      "type": "Revetment",
+      "cost": 39200000,
+      "contractor": "M.K.U. Construction",
+      "completionDate": "2023-10-09"
+    },
+    {
+      "id": "02a5f126-8c4f-4108-b614-761ba649baeb",
+      "year": 2023,
+      "description": "Revetment with Floodwall, Loygoy River",
+      "type": "Revetment",
+      "cost": 91675000,
+      "contractor": "Legacy Construction",
+      "completionDate": "2024-03-12"
+    },
+    {
+      "id": "44acb7df-81c1-4fd6-9d77-fef181234678",
+      "year": 2023,
+      "description": "Drainage System, Lacson Street",
+      "type": "Drainage",
+      "cost": 19600000,
+      "contractor": "Redson Construction",
+      "completionDate": "2023-12-19"
+    },
+    {
+      "id": "f5662acf-ac0e-4be3-bccf-75e22c660251",
+      "year": 2023,
+      "description": "Lupit River Flood Control Phase 7",
+      "type": "Flood Mitigation",
+      "cost": 96500000,
+      "contractor": "Legacy / M.K.U.",
+      "completionDate": "2024-02-15"
+    },
+    {
+      "id": "27c290c4-e032-429f-9e32-56da76c7cb7a",
+      "year": 2023,
+      "description": "Drainage System, Bacolod City",
+      "type": "Flood Mitigation",
+      "cost": 4950000,
+      "contractor": "Kenbe Construction",
+      "completionDate": "2023-04-25"
+    },
+    {
+      "id": "59ba9d94-5bec-4575-8611-afe9d69cc225",
+      "year": 2023,
+      "description": "Drainage System, Hernaez St.",
+      "type": "Drainage",
+      "cost": 34300000,
+      "contractor": "A.C. Rivero Development",
+      "completionDate": "2023-11-03"
+    },
+    {
+      "id": "229222ec-1a45-4368-b701-e424e1529cea",
+      "year": 2023,
+      "description": "Drainage System, Roxas Avenue",
+      "type": "Drainage",
+      "cost": 11760000,
+      "contractor": "Anchorville Realty",
+      "completionDate": "2023-09-26"
+    },
+    {
+      "id": "8b7d1140-c1bc-486d-a7ae-a93e62d1e8fe",
+      "year": 2023,
+      "description": "Revetment, Magsungay River",
+      "type": "Revetment",
+      "cost": 96500000,
+      "contractor": "Supreme ABF / Canlaon",
+      "completionDate": "2024-01-22"
+    },
+    {
+      "id": "9a98e1c4-8217-46dc-b317-f6a1ce5ecc19",
+      "year": 2023,
+      "description": "Drainage System, Rosario St.",
+      "type": "Drainage",
+      "cost": 28963475,
+      "contractor": "Goldstar Marketing",
+      "completionDate": "2023-08-28"
+    },
+    {
+      "id": "a4bc0e96-9b78-4a9c-8bd3-fc0d2650bfec",
+      "year": 2023,
+      "description": "Drainage System, Gatuslao St. Phase 1",
+      "type": "Drainage",
+      "cost": 19600000,
+      "contractor": "Homeworld Construction",
+      "completionDate": "2023-12-27"
+    },
+    {
+      "id": "b024385c-0e91-4e90-91fa-994e367b940f",
+      "year": 2023,
+      "description": "Drainage System, B.S. Aquino Drive",
+      "type": "Drainage",
+      "cost": 29400000,
+      "contractor": "Humming Bird Const.",
+      "completionDate": "2023-12-20"
+    },
+    {
+      "id": "d1186f08-5ba7-4b64-b00f-1e12e341093a",
+      "year": 2023,
+      "description": "Drainage System, Lopez Jaena St.",
+      "type": "Drainage",
+      "cost": 29400000,
+      "contractor": "TMTC Construction",
+      "completionDate": "2023-10-16"
+    },
+    {
+      "id": "b55511b7-b298-4747-8685-e9ba55972a81",
+      "year": 2023,
+      "description": "Drainage System, Luzuriaga St.",
+      "type": "Drainage",
+      "cost": 18617139,
+      "contractor": "EMR Builders",
+      "completionDate": "2023-10-23"
+    },
+    {
+      "id": "1ef0112d-10c7-4daa-8a66-4f581a29cbbd",
+      "year": 2023,
+      "description": "Drainage System, Gatuslao St. Phase 2",
+      "type": "Drainage",
+      "cost": 29400000,
+      "contractor": "Homeworld Construction",
+      "completionDate": "2024-01-11"
+    },
+    {
+      "id": "10a7290c-c9af-4839-b381-778a84cf5e43",
+      "year": 2023,
+      "description": "Drainage System, Rizal St.",
+      "type": "Drainage",
+      "cost": 24500000,
+      "contractor": "RISM Builders",
+      "completionDate": "2023-08-26"
+    },
+    {
+      "id": "9f1f989c-7e1c-4d67-a3ee-5842c53d4cbb",
+      "year": 2023,
+      "description": "Drainage System, Hilado St.",
+      "type": "Drainage",
+      "cost": 19600000,
+      "contractor": "Rock-Willian Const.",
+      "completionDate": "2023-09-20"
+    },
+    {
+      "id": "17a318fa-caf2-4c41-9305-469f4dbc8f0f",
+      "year": 2022,
+      "description": "Revetment, Banago Creek Phase 3",
+      "type": "Revetment",
+      "cost": 58857280,
+      "contractor": "Silver Dragon Const.",
+      "completionDate": "2023-05-15"
+    },
+    {
+      "id": "6dc94fa2-50dc-40f9-af4c-c166911da08d",
+      "year": 2022,
+      "description": "Revetment, Mandalagan River Phase 3",
+      "type": "Revetment",
+      "cost": 69163480,
+      "contractor": "Legacy Construction",
+      "completionDate": "2023-01-30"
+    },
+    {
+      "id": "0cc096ea-c9e3-480e-9309-a3ead2921c25",
+      "year": 2022,
+      "description": "Revetment with Esplanade, Sum-ag River Phase 2",
+      "type": "Revetment",
+      "cost": 49000000,
+      "contractor": "A.C. Rivero Development",
+      "completionDate": "2023-02-26"
+    },
+    {
+      "id": "e1401b18-9383-497d-847d-011680108d4b",
+      "year": 2022,
+      "description": "Drainage for Barangay Roads",
+      "type": "Drainage",
+      "cost": 72949175,
+      "contractor": "Wilkinson Construction",
+      "completionDate": "2024-06-27"
+    },
+    {
+      "id": "3fac8d8e-5c15-4cda-bb49-7e5ad070c0ad",
+      "year": 2022,
+      "description": "Flood Control, Barangay 14",
+      "type": "Flood Mitigation",
+      "cost": 8820000,
+      "contractor": "Homeworld Construction",
+      "completionDate": "2023-01-16"
+    },
+    {
+      "id": "44a330a3-c96d-4d5d-9884-236c639efa42",
+      "year": 2022,
+      "description": "Revetment, Magsungay River Phase 6",
+      "type": "Revetment",
+      "cost": 44113720,
+      "contractor": "Supreme ABF Const.",
+      "completionDate": "2022-09-18"
+    },
+    {
+      "id": "212ef61e-fbcf-49b7-ac62-edb2f32cd28f",
+      "year": 2022,
+      "description": "Drainage with Footbridge",
+      "type": "Drainage",
+      "cost": 4950000,
+      "contractor": "Kenbe Construction",
+      "completionDate": "2022-09-28"
+    },
+    {
+      "id": "2dd76a57-11f6-4b74-a8cd-44c0664b87da",
+      "year": 2022,
+      "description": "Revetment, Mambuloc Creek Phase 2",
+      "type": "Revetment",
+      "cost": 15515115,
+      "contractor": "Silverria Construction",
+      "completionDate": "2023-08-28"
+    },
+    {
+      "id": "1006669d-c8ff-4827-9c8e-a74cf9c5132e",
+      "year": 2022,
+      "description": "Drainage System, Bacolod City",
+      "type": "Drainage",
+      "cost": 16830000,
+      "contractor": "Alta Negros Industrial",
+      "completionDate": "2023-02-27"
+    },
+    {
+      "id": "2a309bbf-8eaa-42cd-afcb-ce4c271380b1",
+      "year": 2021,
+      "description": "Revetment with Esplanade, Lupit River Phase 3",
+      "type": "Revetment",
+      "cost": 31936465,
+      "contractor": "Supreme ABF Const.",
+      "completionDate": "2023-09-25"
+    },
+    {
+      "id": "04c4166f-7699-471d-b9c1-a36fb914cc14",
+      "year": 2021,
+      "description": "Revetment with Esplanade, Catmon Creek",
+      "type": "Revetment",
+      "cost": 34300000,
+      "contractor": "A.C. Rivero Development",
+      "completionDate": "2022-07-25"
+    },
+    {
+      "id": "62a2fa3c-f72a-4ede-8fa9-58b513ec79b3",
+      "year": 2021,
+      "description": "Flood Control, Barangay 14",
+      "type": "Flood Mitigation",
+      "cost": 8820000,
+      "contractor": "Homeworld Construction",
+      "completionDate": "2022-08-31"
+    },
+    {
+      "id": "02eceaef-8a84-4ef0-9e17-922d32e8b887",
+      "year": 2021,
+      "description": "Revetment, Banago Creek Phase 2",
+      "type": "Revetment",
+      "cost": 29400000,
+      "contractor": "Silver Dragon Const.",
+      "completionDate": "2023-10-30"
+    }
+  ],
+  "filters": {
+    "years": [2024, 2023, 2022],
+    "types": ["Drainage", "Revetment", "Flood Mitigation"]
+  },
+  "stats": {
+    "total": 39,
+    "totalCost": 1520452454.93,
+    "contractors": 23
+  },
+  "source": "DPWH Flood Control Information System via BetterGov.ph",
+  "lastUpdated": "2024"
+}

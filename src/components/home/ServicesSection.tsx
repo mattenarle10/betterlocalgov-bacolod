@@ -41,10 +41,12 @@ export default function ServicesSection({
 
   return (
     <Section>
-      <Heading level={2}>{title || t('services.title')}</Heading>
-      <Text className="text-gray-600 mb-6">
-        {description || t('services.description')}
-      </Text>
+      <div className="text-center mb-10">
+        <Heading level={2}>{title || t('services.title')}</Heading>
+        <Text className="text-gray-600 max-w-2xl mx-auto">
+          {description || t('services.description')}
+        </Text>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {displayedCategories.map(category => (
