@@ -1,166 +1,209 @@
-import { ExternalLink } from 'lucide-react';
+import { useState, useMemo } from 'react';
+import { Search, ExternalLink, ChevronDown } from 'lucide-react';
 import floodData from '../../data/transparency/flood-control.json';
 
 export default function FloodControlSection() {
-  const { stats, byYear, byType, topContractors, recentProjects } = floodData;
+  const [search, setSearch] = useState('');
+  const [yearFilter, setYearFilter] = useState('');
+  const [typeFilter, setTypeFilter] = useState('');
+
+  const filtered = useMemo(() => {
+    return floodData.projects.filter(p => {
+      const matchSearch =
+        !search ||
+        p.description.toLowerCase().includes(search.toLowerCase()) ||
+        p.contractor.toLowerCase().includes(search.toLowerCase());
+      const matchYear = !yearFilter || p.year === Number(yearFilter);
+      const matchType = !typeFilter || p.type === typeFilter;
+      return matchSearch && matchYear && matchType;
+    });
+  }, [search, yearFilter, typeFilter]);
+
+  const filteredStats = useMemo(
+    () => ({
+      count: filtered.length,
+      cost: filtered.reduce((s, p) => s + p.cost, 0),
+    }),
+    [filtered]
+  );
 
   return (
-    <div className="space-y-6">
-      {/* Stats Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <div className="bg-blue-50 rounded-lg p-4">
-          <p className="text-sm text-blue-600 font-medium">Total Projects</p>
-          <p className="text-2xl font-bold text-blue-700">
-            {stats.totalProjects}
+    <div className="space-y-4">
+      {/* Stats */}
+      <div className="grid grid-cols-3 gap-2 sm:gap-3 text-center">
+        <div className="bg-primary-50 rounded-lg p-2 sm:p-3">
+          <p className="text-xs text-primary-600">Projects</p>
+          <p className="text-lg sm:text-xl font-bold text-primary-700">
+            {filteredStats.count}
           </p>
         </div>
-        <div className="bg-green-50 rounded-lg p-4">
-          <p className="text-sm text-green-600 font-medium">
-            Total Contract Cost
-          </p>
-          <p className="text-2xl font-bold text-green-700">
-            ₱{(stats.totalCost / 1000000000).toFixed(2)}B
+        <div className="bg-primary-50 rounded-lg p-2 sm:p-3">
+          <p className="text-xs text-primary-600">Total Cost</p>
+          <p className="text-lg sm:text-xl font-bold text-primary-700">
+            ₱{(filteredStats.cost / 1e9).toFixed(1)}B
           </p>
         </div>
-        <div className="bg-purple-50 rounded-lg p-4">
-          <p className="text-sm text-purple-600 font-medium">
-            Unique Contractors
-          </p>
-          <p className="text-2xl font-bold text-purple-700">
-            {stats.uniqueContractors}
+        <div className="bg-primary-50 rounded-lg p-2 sm:p-3">
+          <p className="text-xs text-primary-600">Contractors</p>
+          <p className="text-lg sm:text-xl font-bold text-primary-700">
+            {floodData.stats.contractors}
           </p>
         </div>
       </div>
 
-      {/* Charts Row */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Projects by Year */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-900 mb-3 pb-2 border-b border-gray-300 uppercase tracking-wide">
-            Projects by Year
-          </h3>
-          <div className="space-y-2">
-            {byYear.map(item => (
-              <div key={item.year} className="flex items-center gap-3">
-                <span className="text-sm text-gray-600 w-12">{item.year}</span>
-                <div className="flex-1 bg-gray-100 rounded-full h-6 overflow-hidden">
-                  <div
-                    className="bg-blue-500 h-full rounded-full flex items-center justify-end pr-2"
-                    style={{ width: `${(item.count / 23) * 100}%` }}
-                  >
-                    <span className="text-xs text-white font-medium">
-                      {item.count}
-                    </span>
-                  </div>
-                </div>
-              </div>
+      {/* Filters */}
+      <div className="flex flex-col sm:flex-row gap-2">
+        <div className="relative flex-1">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+          <input
+            type="text"
+            placeholder="Search projects..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
+          />
+        </div>
+        <div className="relative">
+          <select
+            value={yearFilter}
+            onChange={e => setYearFilter(e.target.value)}
+            className="appearance-none pl-3 pr-8 py-2 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary-500"
+          >
+            <option value="">All Years</option>
+            {floodData.filters.years.map(y => (
+              <option key={y} value={y}>
+                {y}
+              </option>
             ))}
-          </div>
+          </select>
+          <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
         </div>
-
-        {/* Projects by Type */}
-        <div>
-          <h3 className="text-sm font-semibold text-gray-900 mb-3 pb-2 border-b border-gray-300 uppercase tracking-wide">
-            Projects by Type
-          </h3>
-          <div className="space-y-2">
-            {byType.map((item, i) => {
-              const colors = ['bg-emerald-500', 'bg-amber-500', 'bg-rose-500'];
-              return (
-                <div key={item.type} className="flex items-center gap-3">
-                  <div className={`w-3 h-3 rounded-full ${colors[i]}`} />
-                  <span className="text-sm text-gray-700 flex-1">
-                    {item.type}
-                  </span>
-                  <span className="text-sm font-medium text-gray-900">
-                    {item.count}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
+        <div className="relative">
+          <select
+            value={typeFilter}
+            onChange={e => setTypeFilter(e.target.value)}
+            className="appearance-none pl-3 pr-8 py-2 border border-gray-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-primary-500"
+          >
+            <option value="">All Types</option>
+            {floodData.filters.types.map(t => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
+          <ChevronDown className="absolute right-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
         </div>
       </div>
 
-      {/* Top Contractors */}
-      <div>
-        <h3 className="text-sm font-semibold text-gray-900 mb-3 pb-2 border-b border-gray-300 uppercase tracking-wide">
-          Top Contractors
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
-          {topContractors.map((c, i) => (
-            <div
-              key={i}
-              className="bg-gray-50 rounded-lg p-3 flex justify-between items-center"
-            >
-              <span className="text-sm text-gray-700 truncate pr-2">
-                {c.name}
-              </span>
-              <span className="text-sm font-semibold text-primary-600 whitespace-nowrap">
-                {c.count} projects
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Recent Projects Table */}
-      <div>
-        <h3 className="text-sm font-semibold text-gray-900 mb-3 pb-2 border-b border-gray-300 uppercase tracking-wide">
-          Recent Major Projects
-        </h3>
-        <div className="overflow-x-auto">
+      {/* Table */}
+      <div className="border border-gray-200 rounded-lg overflow-hidden">
+        <div className="max-h-[400px] overflow-y-auto">
           <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-gray-200">
-                <th className="text-left py-2 text-gray-600 font-medium">
+            <thead className="bg-gray-50 sticky top-0">
+              <tr>
+                <th className="text-left py-2 px-3 font-medium text-gray-600">
                   Year
                 </th>
-                <th className="text-left py-2 text-gray-600 font-medium">
+                <th className="text-left py-2 px-3 font-medium text-gray-600">
                   Project
                 </th>
-                <th className="text-right py-2 text-gray-600 font-medium">
+                <th className="text-left py-2 px-3 font-medium text-gray-600 hidden sm:table-cell">
+                  Type
+                </th>
+                <th className="text-right py-2 px-3 font-medium text-gray-600">
                   Cost
+                </th>
+                <th className="text-left py-2 px-3 font-medium text-gray-600 hidden md:table-cell">
+                  Contractor
                 </th>
               </tr>
             </thead>
-            <tbody>
-              {recentProjects.map((p, i) => (
-                <tr key={i} className="border-b border-gray-100">
-                  <td className="py-2 text-gray-900">{p.year}</td>
-                  <td className="py-2 text-gray-700">{p.description}</td>
-                  <td className="py-2 text-right text-gray-900 whitespace-nowrap">
-                    ₱{(p.cost / 1000000).toFixed(1)}M
+            <tbody className="divide-y divide-gray-100">
+              {filtered.map(p => (
+                <tr key={p.id} className="hover:bg-gray-50">
+                  <td className="py-2 px-3 text-gray-900">{p.year}</td>
+                  <td className="py-2 px-3 text-gray-700">{p.description}</td>
+                  <td className="py-2 px-3 text-gray-600 hidden sm:table-cell">
+                    <span
+                      className={`px-2 py-0.5 rounded-full text-xs ${
+                        p.type === 'Drainage'
+                          ? 'bg-blue-100 text-blue-700'
+                          : p.type === 'Revetment'
+                            ? 'bg-amber-100 text-amber-700'
+                            : 'bg-rose-100 text-rose-700'
+                      }`}
+                    >
+                      {p.type}
+                    </span>
+                  </td>
+                  <td className="py-2 px-3 text-right text-gray-900 whitespace-nowrap">
+                    ₱{(p.cost / 1e6).toFixed(1)}M
+                  </td>
+                  <td className="py-2 px-3 text-gray-600 hidden md:table-cell truncate max-w-[200px]">
+                    {p.contractor}
                   </td>
                 </tr>
               ))}
+              {filtered.length === 0 && (
+                <tr>
+                  <td colSpan={5} className="py-8 text-center text-gray-500">
+                    No projects found
+                  </td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
       </div>
 
-      {/* View More Link */}
-      <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t border-gray-200">
+      {/* Links */}
+      <div className="flex flex-wrap gap-2 pt-2">
         <a
           href="https://www.bettergov.ph/flood-control-projects?deo=Bacolod+City+District+Engineering+Office"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors text-sm"
+          className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary-600 text-white rounded text-sm hover:bg-primary-700"
         >
-          View All Projects on BetterGov <ExternalLink className="h-4 w-4" />
+          View on BetterGov <ExternalLink className="h-3 w-3" />
         </a>
         <a
           href="https://visualizations.bettergov.ph/map?deo=Bacolod+City+District+Engineering+Office"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 px-4 py-2 border border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition-colors text-sm"
+          className="inline-flex items-center gap-1 px-3 py-1.5 border border-primary-600 text-primary-600 rounded text-sm hover:bg-primary-50"
         >
-          View on Map <ExternalLink className="h-4 w-4" />
+          View Map <ExternalLink className="h-3 w-3" />
         </a>
       </div>
 
-      <p className="text-xs text-gray-500">
-        Data source: {floodData.source} • Last updated: {floodData.lastUpdated}
+      <p className="text-xs text-gray-500 pt-2">
+        Source:{' '}
+        <a
+          href="https://dpwhinfra.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          DPWH Flood Control Information System
+        </a>{' '}
+        via{' '}
+        <a
+          href="https://bettergov.ph"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          BetterGov.ph
+        </a>{' '}
+        • Report issues:{' '}
+        <a
+          href="https://sumbongsapangulo.ph/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          sumbongsapangulo.ph
+        </a>
       </p>
     </div>
   );
